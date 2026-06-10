@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Inteligente | Desmatamento e Agricultura Sustentável</title>
+    <!-- CSS será linkado externamente -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Botão de acessibilidade fixo -->
+    <div class="acessibilidade" id="acessibilidade">
+        <button id="aumentarFonte" aria-label="Aumentar fonte">A+</button>
+        <button id="diminuirFonte" aria-label="Diminuir fonte">A-</button>
+        <button id="altoContraste" aria-label="Ativar alto contraste">🎨 Contraste</button>
+    </div>
+
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="logo">
+            <h1>🌿 Agro Inteligente</h1>
+            <p>Agro forte, futuro sustentável</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Início -->
+        <section id="inicio" class="secao">
+            <article>
+                <h2>Bem-vindo ao Agro Inteligente</h2>
+                <p>Você sabia que é possível produzir alimentos <strong>sem destruir a natureza</strong>? Aqui você vai aprender como a agricultura pode ser forte, produtiva e ao mesmo tempo <strong>sustentável</strong>.</p>
+                <p>Nosso objetivo é conscientizar sobre o <strong>desmatamento</strong> e mostrar soluções para equilibrar produção e meio ambiente.</p>
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=300&fit=crop" alt="Plantação e floresta juntas, mostrando equilíbrio entre agricultura e natureza" class="imagem-destaque">
+            </article>
+        </section>
+
+        <!-- Seção Problema: Desmatamento -->
+        <section id="problema" class="secao fundo-claro">
+            <article>
+                <h2>🔥 O problema: Desmatamento</h2>
+                <p>O desmatamento é a retirada da vegetação nativa de uma área. Infelizmente, ele acontece muito no Brasil por causa da <strong>expansão agrícola descontrolada</strong>, queimadas e criação de gado.</p>
+                <p><strong>Por que isso é grave?</strong></p>
+                <ul>
+                    <li>Perda de biodiversidade (animais e plantas morrem);</li>
+                    <li>Poluição do ar com as queimadas;</li>
+                    <li>Empobrecimento do solo;</li>
+                    <li>Aceleração das mudanças climáticas.</li>
+                </ul>
+                <p>Mas a boa notícia é: <strong>existe um jeito certo de produzir sem desmatar</strong>!</p>
+            </article>
+        </section>
+
+        <!-- Seção Soluções: Agricultura Sustentável -->
+        <section id="solucoes" class="secao">
+            <article>
+                <h2>🌱 A solução: Agricultura Sustentável</h2>
+                <p>A agricultura sustentável é aquela que produz alimentos <strong>preservando o meio ambiente</strong>. Algumas práticas incríveis são:</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>🌳 Agrofloresta</h3>
+                        <p>Planta árvores junto com alimentos. Imita a natureza!</p>
+                    </div>
+                    <div class="card">
+                        <h3>💧 Irrigação eficiente</h3>
+                        <p>Economiza água e evita desperdício.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🐞 Controle biológico</h3>
+                        <p>Usa inimigos naturais das pragas, sem veneno.</p>
+                    </div>
+                    <div class="card">
+                        <h3>♻️ Reciclagem de resíduos</h3>
+                        <p>Aproveita restos de plantas como adubo.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Quiz Interativo (JavaScript) -->
+        <section id="quiz" class="secao fundo-claro">
+            <article>
+                <h2>📝 Teste seu conhecimento ambiental</h2>
+                <p>Responda as perguntas abaixo e veja quanto você sabe sobre desmatamento e agricultura sustentável!</p>
+                
+                <div id="quiz-container">
+                    <!-- As perguntas serão inseridas via JavaScript -->
+                </div>
+
+                <button id="enviarQuiz" class="botao">Ver meu resultado</button>
+                <div id="resultadoQuiz" class="resultado"></div>
+            </article>
+        </section>
+
+        <!-- Seção Dicas práticas -->
+        <section id="dicas" class="secao">
+            <article>
+                <h2>💚 Como você pode ajudar?</h2>
+                <ul>
+                    <li>✔️ Não jogar lixo em rios ou matas;</li>
+                    <li>✔️ Evitar comprar produtos de áreas desmatadas;</li>
+                    <li>✔️ Conscientizar amigos e familiares;</li>
+                    <li>✔️ Apoiar agricultores que praticam agroecologia;</li>
+                    <li>✔️ Nunca colocar fogo em vegetação.</li>
+                </ul>
+                <p><strong>Pequenas atitudes fazem uma grande diferença!</strong></p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto Agrinho 2026 | Agro Inteligente | Desmatamento e equilíbrio entre produção e meio ambiente</p>
+        <p>Desenvolvido por Pedro Henrique Felipeti Prevital</p>
+        <p>🌎 Cuidar da natureza é cuidar do nosso futuro</p>
+    </footer>
+
+    <!-- JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
